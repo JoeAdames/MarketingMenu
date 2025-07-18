@@ -1,0 +1,128 @@
+{
+  "name": "Salon",
+  "statement": "A Full Service Salon",
+  "address": {
+    "location": "8 Riverside Plaza",
+    "city": "Hackettstown",
+    "state": "NJ",
+    "zip": "07840",
+    "number": "(908) 813-2662"
+  },
+  "hours": [
+    { "day": "Sunday", "value": "Closed" },
+    { "day": "Monday", "value": "Closed" },
+    { "day": "Tuesday", "value": "9:00am - 8:00pm" },
+    { "day": "Wednesday", "value": "9:00am - 8:00pm" },
+    { "day": "Thursday", "value": "9:00am - 8:00pm" },
+    { "day": "Friday", "value": "9:00am - 5:00pm" },
+    { "day": "Saturday", "value": "8:00am - 4:00pm" }
+  ],
+  "services": [
+    {
+      "category": "Hair",
+      "subcategories": [
+        {
+          "name": "Women",
+          "items": [
+            { "name": "Shampoo Cut & Blow Dry", "price": "$60.00" },
+            { "name": "Shampoo & Cut", "price": "$44.00" },
+            { "name": "Shampoo & Blow Dry", "price": "$35.00" },
+            { "name": "Shampoo & Set", "price": "$35.00" },
+            { "name": "Bangs", "price": "$12.00" }
+          ]
+        },
+        {
+          "name": "Men",
+          "items": [
+            { "name": "Shampoo & Cut", "price": "$30.00" },
+            { "name": "Buzz Cut", "price": "$16.00" },
+            { "name": "Beard", "price": "$12.00" }
+          ]
+        },
+        {
+          "name": "Children",
+          "items": [
+            { "name": "Haircut & Blow Dry", "price": "$47.00" },
+            { "name": "Haircut", "price": "$28.00" }
+          ]
+        },
+        {
+          "name": "Special Styling",
+          "items": [
+            { "name": "Up-Do Style", "price": "$105.00" },
+            { "name": "Bridal Style", "price": "$125.00" }
+          ]
+        },
+        {
+          "name": "Hair Smoothing",
+          "items": [
+            { "name": "BKT Botanical Keratin Treatment", "price": "$350.00" },
+            { "name": "Each Additional Ounce", "price": "$35.00" }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Color",
+      "subcategories": [
+        {
+          "name": "Semi-Permanent Color",
+          "items": [
+            { "name": "Shades Color Gloss", "price": "$70.00" },
+            { "name": "Extra Color", "price": "$20.00" }
+          ]
+        },
+        {
+          "name": "Permanent Color",
+          "items": [
+            { "name": "Chromatics ", "price": "Addtional $20.00" },
+            { "name": "Single Process Touch Up", "price": "$70.00" },
+            { "name": "Extra Color", "price": "$20.00" },
+            { "name": "Gloss on ends", "price": "$20.00" },
+            { "name": "Bleach Out", "price": "$165.00" },
+            { "name": "Corrective Color", "price": "Consultation Required" }
+          ]
+        },
+        {
+          "name": "Highlights",
+          "items": [
+            { "name": "Cap Highlights", "price": "$95.00" },
+            { "name": "Full Foil", "price": "$150.00" },
+            { "name": "Partial Foil", "price": "$125.00" },
+            { "name": "Each Additional Ounce", "price": "$15.00" }
+          ]
+        },
+        {
+          "name": "Perms",
+          "items": [
+            { "name": "Regular", "price": "$115.00" },
+            { "name": "Extra Length", "price": "$125.00" },
+            { "name": "Spiral", "price": "$325.00" }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "subcategories": [
+        {
+          "name": "Treatments",
+          "items": [
+            { "name": "Deep Conditioning", "price": "$35.00" },
+            { "name": "Cleansing Treatments", "price": "$25.00" }
+          ]
+        },
+        {
+          "name": "Waxing",
+          "items": [
+            { "name": "Cheeks", "price": "$17.00" },
+            { "name": "Chin", "price": "$17.00" },
+            { "name": "Eyebrows", "price": "$17.00" },
+            { "name": "Face Full", "price": "$43.00" },
+            { "name": "Lip", "price": "$16.00" }
+          ]
+        }
+      ]
+    }
+  ]
+}
