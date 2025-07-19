@@ -13,7 +13,7 @@ export default function Service({ subcategories }) {
             {sub.items.map((item, j) => (
               <li key={j} className="flex justify-between p-1">
                 <div className="text-lg">{item.name}</div>
-                <div className="font-bold text-pink-500">{item.price}</div>
+                <div className="font-bold text-indigo-500">{item.price}</div>
               </li>
             ))}
           </ul>
