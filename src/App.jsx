@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="font-sans text-gray-800">
       <Header name={name} />
-      <Address address={address} />
+      {/* <Address address={address} /> */}
       <Hero statement={statement} hours={hours} address={address}></Hero>
       <Services services={services} />
       <About />
